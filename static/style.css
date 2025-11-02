@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #caf0f8 0%, #90e0ef 50%, #00b4d8 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 420px;
+    text-align: center;
+}
+
+h1 {
+    color: #0077b6;
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+.result {
+    width: 400px;
+}
+
+.card {
+    background: #f0f9ff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.output {
+    font-size: 18px;
+    color: #03045e;
+    font-weight: bold;
+}
+
+.back-btn {
+    text-decoration: none;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #023e8a;
+}
